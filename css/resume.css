@@ -1,0 +1,51 @@
+/* ---Resume---*/
+
+.resume{
+	width: 100%;
+}
+
+.back{
+	text-decoration: none;
+	font-size: 90%;
+	margin-left: 5%;
+}
+
+.back:hover{
+	text-decoration: none;
+}
+
+
+@media screen and (min-width: 700px){
+	.resume{
+	width: 100%;
+	position: relative;
+	top: 60px;
+	}
+
+	.back{
+		text-decoration: none;
+		font-size: 120%;
+		margin-left: 5%;
+	}
+
+	.back:hover{
+		text-decoration: none;
+	}
+}
+
+@media screen and (min-width: 1000px){
+	.resume{
+	width: 100%;
+	}
+
+	.back{
+		text-decoration: none;
+		font-size: 140%;
+		margin-left: 5%;
+	}
+
+	.back:hover{
+		text-decoration: none;
+	}
+}
+

@@ -1,0 +1,587 @@
+body{
+	font-family: Merriweather, "Open Sans", "Times New Roman", "Sans Serif";
+	color: rgba(0, 0, 0, 0.9);
+	}
+
+.one{
+	margin-top: 20%;
+}
+
+.mainheader{
+	display: block;
+	margin-bottom: 70px;
+	margin: 0 auto;
+}
+
+.shortInfo{
+	font-weight: bold;
+	font-size: 200%;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.para1{
+	text-align: center;
+	font-size: 120%;
+	color: rgba(0,0,0,0.7);
+}
+
+.myImg{
+	background: url("../images/photo2.jpg");
+}
+
+.myPhoto{
+	display: block;
+	margin-top: 10%;
+	width: 60%;
+	position: relative;
+	left: 20%;
+	right: 20%;
+	border-radius: 50%;
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+
+.about{
+	text-align: center;
+	font-size: 90%;
+	margin-top: 15%;
+	margin-bottom: 60%;
+}
+
+.about .hi{
+	font-weight: bold;
+}
+
+.two{
+	display: block;
+	background: #FFBEBD;
+	box-sizing: border-box;
+	text-align: center;
+}
+
+.inner-two{
+	display: block;
+	border: solid 1.5px rgba(0,0,0,0.6);
+	margin: 0% 10% 0% 10%;
+	border-radius: 15px;
+	box-shadow: 3px 3px rgba(0,0,0,0.1);
+	position: relative;
+	top: -230px;
+	background: #fff;
+}
+
+.img{
+	width: 70%;
+	margin: 10% 15% 10%; 
+	padding-top: 15%;
+}
+
+.inner-two-one{
+	padding: 0 10% 20% 10%;
+}
+
+.FED{
+	background: #08c6a2;
+}
+
+.fed-head{
+	font-weight: bold;
+	font-size: 150%;
+	padding-top: 25%;
+	text-align: center;
+}
+
+.fed-para{
+	padding: 0 10% 30% 10%;
+}
+
+.fed-img{
+	padding-top: 0;
+}
+
+.lang-img{
+	width: 35%;
+	margin: 0% 15% 10%;
+}
+
+.html{
+	margin-top: 5%;
+	margin-bottom: 20%;
+}
+
+.tools-img{
+	display: inline-block;
+	width: 25%;
+	margin: 5% 10% 2% 10%;
+}
+
+.para3{
+	display: inline-block;
+	width: 45%;
+	padding-bottom: 15%;
+}
+
+.para2{
+	display: inline-block;
+	width: 45%;
+}
+
+.pr-img{
+	display: inline-block;
+	width: 20%;
+	margin: 5% 2% 2% 10%;
+}
+
+.album{
+	margin-top: 0;
+	margin-bottom: 5%;
+	border-radius: 10%;
+}
+
+.work{
+	font-weight: bold;
+	font-size: 200%;
+	padding-top: 15%;
+	text-align: center;
+}
+
+.falbum{
+		display: block;
+		margin-bottom: 10%;
+		margin-top: 0%;
+		margin-left: 39%;
+		color: #000;
+	}
+
+.falbum:hover{
+	text-decoration: none;
+	display: block;
+	margin-bottom: 10%;
+	margin-top: 0%;
+	margin-left: 39%;
+}
+
+.fontaw{
+	color: rgba(0,0,0,0.8);
+	display: inline-block;
+	width: 18%;
+	margin-top: 5%;
+}
+
+.fontaw:hover{
+	color: rgba(0,0,0,1);
+}
+
+.awe{
+	
+	margin: 0% 5% 10% 20%;
+}
+
+.copy{
+	text-align: center;
+	font-size: 80%;
+	color: rgba(0,0,0,0.7);
+	padding-bottom: 15%;
+}
+
+.logo{
+	margin-left: 5%;
+	width: 30%;
+}
+
+.logo-footer{
+	width: 10%;
+	margin: 20% 45% 4% 45%;
+}
+
+.para-footer{
+	text-align: center;
+	color: rgba(0,0,0,0.8);
+	margin-bottom: 10%;
+}
+
+.contact{
+	color: rgba(0,0,0,0.5);
+}
+
+.contact:hover{
+	color: rgba(0,0,0,0.7);
+}
+
+.rwd{
+	background: #31a9b8;
+}
+
+.pl{
+	
+	padding-bottom: 20%;
+	background: #98dbc6;
+	border-radius: 0 0 15px 15px;
+}
+
+.wds{
+	padding-bottom: 30%;
+}
+
+.wds1{
+	padding-bottom: 10%;
+}
+
+footer{
+	background: #d0e1f9;
+}
+
+.ddaw{
+	display: inline-block;
+	margin: auto 0% auto 4.39%;
+	width: 12%;
+}
+
+
+
+/* ---700px---*/
+
+@media screen and (min-width: 700px){
+	.ddaw{
+		margin-left: 7%;
+	}
+
+	.one{
+		margin-top: 20%;
+	}
+
+	.myImg{
+		display: inline-block;
+		width: 55%;
+		padding-top: 10%;
+		background: none;
+	}
+
+	.about{
+		display: inline-block;
+		width: 40%;
+		color: #020509;
+		vertical-align: middle;
+	}
+
+	.myPhoto{
+		width: 70%;
+		display: block;
+		margin-top: 15%;
+	}
+
+	.intro1{
+		background: url("../images/photo1.jpg");
+		margin-top: 15%;
+	}
+
+	.fed-head{
+		font-weight: bold;
+		font-size: 150%;
+		padding-top: 15%;
+		text-align: center;
+	}
+
+	.fed-para{
+		font-size: 110%;
+		padding-bottom: 15%;
+	}
+
+	.para1{
+		font-size: 110%;
+	}
+
+	.lang-img{
+		display: inline-block;
+		width: 24%;
+		margin: 0% 5% 15%;
+	}
+
+	.wds{
+		padding-bottom: 0%;
+	}
+	.pr-img{
+		display: block;
+		width: 50%;
+		padding-left: 5%;
+		padding-top: 15%;
+	}
+
+	.pr1{
+		margin-left: 25%;
+	}
+
+	.php{
+		margin-left: 25%;
+	}
+
+	.php2{
+		margin-left: 13%;
+	}
+
+	.pr2{
+		margin-left: 10%;
+	}
+
+	.para2{
+		display: block;
+		margin-bottom: 15%;
+		padding-left: 32%;
+	}
+
+	.sql{
+		padding-left: 28%;
+	}
+
+	.pl1{
+		display: inline-block;
+		width: 45%;
+	}
+
+	.img{
+		width: 50%;
+		margin: 0% 10% 5% 10%; 
+		padding-top: 15%;
+	}
+
+	.fed-img{
+		padding-top: 2%;
+	}
+
+	.album{
+		margin-left: 25%;
+		margin-top: 0%;
+		padding-top: 5%;
+	}
+
+	.work{
+		padding-top: 15%;
+		margin-bottom: 0%;
+		padding-bottom: 0%;
+		text-align: center;
+	}
+
+	.logo-footer{
+		width: 5%;
+		margin: 7% 35% 2% 47%;
+	}
+
+	.para-footer{
+		padding-bottom: 0%;
+		margin-bottom: 2%;
+	}
+
+	.awe{
+		margin-bottom: 3%;
+		margin-top: 0%;
+	}
+
+	.copy{
+		padding-bottom: 5%;
+	}
+
+	.falbum{
+		display: block;
+		margin-bottom: 10%;
+		margin-top: 0%;
+		margin-left: 43%;
+		color: #000;
+	}
+
+	.falbum:hover{
+		text-decoration: none;
+		display: block;
+		margin-bottom: 10%;
+		margin-top: 0%;
+		margin-left: 43%;
+	}
+}
+
+
+
+
+
+
+/* ---1000px---*/
+
+@media screen and (min-width: 1000px){
+	.one{
+		margin-top: 15%;
+		font-size: 150%;
+	}
+
+	.para1{
+		font-size: 150%;
+	}
+
+	.myImg{
+		display: inline-block;
+		width: 40%;
+		padding-top: 0%;
+		background: none;
+	}
+
+	.hi{
+		font-size: 190%;
+		color: #000;
+	}
+
+	.para4{
+		font-size: 130%;
+		color: #000;
+	}
+
+	.myPhoto{
+		width: 70%;
+		display: block;
+		margin-top: 10%;
+		margin-left: 10%;
+	}
+
+	.intro1{
+		background: url("../images/photo1.jpg");
+		margin-top: 10%;
+	}
+
+	.inner-two{
+		margin: 0% 15% 0% 15%;
+		position: relative;
+		top: -370px;
+	}
+
+	.inner-two-one{
+		font-size: 150%;
+	}
+
+	.fed-head{
+		font-weight: bold;
+		font-size: 250%;
+		padding-top: 10%;
+		text-align: center;
+	}
+
+	.fed-para{
+		font-size: 150%;
+		padding-bottom: 10%;
+	}
+
+	.pl1{
+		display: inline-block;
+		width: 30%;
+	}
+
+	.pr-img{
+		display: block;
+		width: 50%;
+		padding-left: 5%;
+		padding-top: 15%;
+	}
+
+	.php{
+		padding-left: 0%;
+		margin-left: 0%;
+	}
+
+	.lang-img{
+		display: inline-block;
+		margin: 0% 5% 5%;
+		width: 15%;
+		padding-bottom: 5%;
+		padding-top: 2%;
+	}
+
+	.wds{
+		padding-bottom: 5%;
+	}
+
+	.wds1{
+		margin-top: 0%;
+		margin-bottom: 0%;
+		padding-bottom: 5%;
+	}
+
+	.tools-img{
+		width: 10%;
+		margin: 5% 5% 2% 5%;
+	}
+
+	.t1{
+		margin-left: 5.5%;
+	}
+
+	.para2{
+		display: block;
+		margin-bottom: 15%;
+		padding-left: 27%;
+	}
+
+	.pr2{
+		padding-left: 32%;
+	}
+
+	.php2{
+		padding-left: 0%;
+		margin-left: 1%;
+	}
+
+	.pl{
+		padding-bottom: 10%;
+	}
+
+	.img{
+		width: 40%;
+		margin: 0% 10% 2% 10%; 
+		padding-top: 5%;
+	}
+
+	.falbum{
+		display: block;
+		margin-bottom: 10%;
+		margin-top: 0%;
+		margin-left: 47%;
+	}
+
+	.falbum:hover{
+		display: block;
+		margin-bottom: 10%;
+		margin-top: 0%;
+		margin-left: 47%;
+	}
+
+	.para3{
+		width: 20%;
+	}
+
+	.work{
+		padding-top: 10%;
+	}
+
+	.logo-footer{
+		width: 5%;
+		margin: 7% 35% 2% 47%;
+	}
+
+	.para-footer{
+		padding-bottom: 0%;
+		margin-bottom: 2%;
+	}
+
+	.awe{
+		margin-bottom: 3%;
+		margin-top: 0%;
+	}
+
+	.copy{
+		padding-bottom: 5%;
+	}
+
+	.design1{
+		padding-top: 15%;
+		padding-bottom: 3%;
+	}
+
+	.album{
+		margin-left: 30%;
+	}
+}
