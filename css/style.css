@@ -1,7 +1,8 @@
 body{
 	font-family: Merriweather, "Open Sans", "Times New Roman", "Sans Serif";
 	color: rgba(0, 0, 0, 0.9);
-	}
+	-webkit-tap-highlight-color: #fff;
+}
 
 .one{
 	margin-top: 20%;
